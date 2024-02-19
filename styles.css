@@ -62,7 +62,7 @@ body {
     right: -75px;
   }
 
-  /* Build the penguin */
+  /* Build the penguin's head */
 
   .penguin-head {
     width: 50%;
@@ -73,6 +73,16 @@ body {
     left: 25%;
     z-index: 1;
   }
+
+  /* Building the penguin's face */
+
+  .face { 
+    width:60%; 
+    height:70%; 
+    background-color:white;
+    }
+
+  /* Build the penguin's body */  
 
   .penguin-body {
     width: 53%;
@@ -93,4 +103,8 @@ body {
     width: 50%;
     height:45%; 
     background-color:gray;
+    top: 10%;
+    left: 25%;
+    border-radius: 0% 0% 100% 100%;
+    opacity:70%;
   }
