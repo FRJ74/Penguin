@@ -80,7 +80,7 @@ body {
     z-index: 1;
   }
 
-  /* Building the penguin's face */
+  /* Build the penguin's face */
 
   .face { 
     width:60%; 
@@ -105,6 +105,14 @@ body {
       top: 25%;
       left: 5%;
       border-radius: 70% 70% 100% 100%;
+    }
+
+    .eye {
+      width: 15%;
+      height: 17%;
+      background-color: black;
+      top: 45%;
+      border-radius: 50%;
     }
 
   /* Build the penguin's body */  
