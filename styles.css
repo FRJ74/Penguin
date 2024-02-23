@@ -192,3 +192,17 @@ body {
     border-radius: 0% 0% 100% 100%;
     opacity:70%;
   }
+
+  /* Build and style the shirt */
+
+  .shirt {
+    font-size:25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .shirt div {
+    font-weight: normal;
+    top: 22.5px;
+    left: 12px;
+  }
