@@ -2,6 +2,7 @@
 
 :root {
   --penguin-face: white;
+  --penguin-picorna: orange;
 }
 
 /* Main stylings */
@@ -150,7 +151,7 @@ body {
 
     .beak {
       height: 10%;
-      background-color:orange;
+      background-color:var(--penguin-picorna);
       border-radius: 50%;
     }
 
@@ -191,6 +192,24 @@ body {
     left: 25%;
     border-radius: 0% 0% 100% 100%;
     opacity:70%;
+  }
+
+  /* Build the feet */
+
+  .foot {
+    width:15%;
+    height:30%;
+    background-color: var(--penguin-picorna);
+    top:85%;
+    border-radius:50%;
+  }
+
+  .foot.left {
+    left: 25%;
+  }
+  
+   .foot.right {
+    right: 25%;
   }
 
   /* Build and style the shirt */
